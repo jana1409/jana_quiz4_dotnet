@@ -4,8 +4,7 @@ trigger:
 name: jana_quiz4_ci_dotnet
 
 pool:
-  name: Default
-
+  vmImage: 'windows-latest'
 variables:
   buildConfiguration: 'Release'
 
